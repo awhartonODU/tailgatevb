@@ -130,7 +130,7 @@ td { vertical-align: top; }
 	#widget-area .social-ico a i {color:#191612;}
 	footer, body { background-color:#26221d; }
 	body.home #main {background-color:#6f5e4f; }
-	#pro-home-slider .Button-Growler a, body #main .width-container #respond input#submit, body #main a.button, body #main button.single_add_to_cart_button, body #main input.button, body.woocommerce-cart #main td.actions  input.button.checkout-button, body #main button.button, body #single-product-pro a.button, body #single-product-pro button.single_add_to_cart_button, body #single-product-pro input.button, body.woocommerce-cart #single-product-pro input.button.checkout-button, body #single-product-pro button.button,	body a.progression-button, body input.wpcf7-submit, body input#submit, body a.ls-sc-button.default, .page-numbers span.current, .page-numbers a:hover  { background:#cc5b44; border-color:#cc5b44;}
+	#pro-home-slider .Button-Growler a, body #main .width-container #respond input#submit, body #main a.button, body #main button.single_add_to_cart_button, body #main input.button, body.woocommerce-cart #main td.actions  input.button.checkout-button, body #main button.button, body #single-product-pro a.button, body #single-product-pro button.single_add_to_cart_button, body #single-product-pro input.button, body.woocommerce-cart #single-product-pro input.button.checkout-button, body #single-product-pro button.button,	body a.progression-button, body input.wpcf7-submit, body input#submit, body a.ls-sc-button.default, .page-numbers span.current, .page-numbers a:hover  { background:#1B2945; border-color:#1B2945;}
 	body #main .width-container .widget_price_filter .ui-slider .ui-slider-handle { background:#cc5b44; border-color:#cc5b44; }
 	span.comment-meta-pro a, ul#menu-sub-nav li a:hover, ul#menu-sub-nav li.current-cat a, body  #main .widget_price_filter .ui-slider .ui-slider-range {background:#cc5b44; }
 	body #main .width-container #respond input#submit:hover, body #main a.button:hover, body #main button.single_add_to_cart_button:hover, body #main input.button:hover, body.woocommerce-cart #main td.actions input.button.checkout-button:hover, body #main button.button:hover, body #single-product-pro a.button:hover, body #single-product-pro button.single_add_to_cart_button:hover, body #single-product-pro input.button:hover, body.woocommerce-cart #single-product-pro input.button.checkout-button:hover, body #single-product-pro button.button:hover, body a.progression-button:hover, body input.wpcf7-submit:hover, body input#submit:hover, body a.ls-sc-button.default:hover { background:#bc543f; border-color:#bc543f;}
@@ -410,7 +410,11 @@ font-size: 28px;
 	text-align:center;
 }
 
-
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .home-widget-text-pro {
 	font-size:120%;
