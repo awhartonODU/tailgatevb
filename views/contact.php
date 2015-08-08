@@ -1,6 +1,6 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "example@example.com"; // this is your Email address!
+    $to = "awharton5@gmail.com"; // this is your Email address!
     $from = $_POST['ContactEmail']; // this is the sender's Email address
     $contact_name = $_POST['ContactName'];
 	$contact_phone = $_POST['ContactPhone'];
@@ -57,34 +57,8 @@ if(isset($_POST['submit'])){
 						<li>
 							<a href="/">Home</a>
 						</li>
-						<li>
-							<a href="beers.html">Beers</a>
-						</li>
 						<li class="menu-item">
-							<a href="/menu" class="sf-with-ul">Menu</a>
-							<ul class="sub-menu">
-								<li>
-									<a href="page-columns.html">Columns</a>
-								</li>
-								<li>
-									<a href="page-faq.html">FAQ</a>
-								</li>
-								<li>
-									<a href="page-maps-videos.html">Maps and Videos</a>
-								</li>
-								<li>
-									<a href="page-shortcodes.html">Shortcodes Examples</a>
-								</li>
-								<li>
-									<a href="homepage-fixed-header.html">Fixed Header</a>
-								</li>
-							</ul>	
-						</li>
-						<li>
-							<a href="events.html">Events</a>
-						</li>
-						<li>
-							<a href="blog.html">News</a>
+							<a href="/menu" class="sf-with-ul">Menu</a>	
 						</li>
 						<li class="current-menu-item">
 							<a href="/contact">Contact</a>
@@ -251,7 +225,7 @@ if(isset($_POST['submit'])){
 				</div><!-- close .social-icons-widget-pro -->
 			</div>
 			
-			<div id="our-hours-widget-2" class="widget hours"><h2 class="widget-title">TAPROOM HOURS</h2>			
+			<div id="our-hours-widget-2" class="widget hours"><h2 class="widget-title">HOURS</h2>			
 				<ul class="open-hours">
 					<li>
 						<div class="date-day grid2column-progression">Monday</div>
@@ -303,19 +277,16 @@ if(isset($_POST['submit'])){
 	<footer>
 		<div id="copyright">
 			<div class="width-container">
-				<div id="copyrigh-text">© 2015 All Rights Reserved. Developed by ProgressionStudios</div>
+				<div id="copyrigh-text">© 2015 All Rights Reserved. Developed by Andrew Wharton </div>
 				<div class="menu-footer-navigation-container">
 					<ul id="menu-footer-navigation" class="pro-footer-menu">
 						<li class="menu-item current-menu-item">
 							<a href="/">Home</a>
 						</li>
 						<li class="menu-item">
-							<a href="beers.html">Beers</a>
+							<a href="/menu">Menu</a>
 						</li>
-						<li class="menu-item">
-							<a href="blog.html">News</a>
-						</li>
-						<li class="menu-item">
+						<li class="menu-item current-menu-item">
 							<a href="/contact">Contact</a>
 						</li>
 					</ul>
