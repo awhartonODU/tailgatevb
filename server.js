@@ -26,6 +26,13 @@ app.get('/contact', function(req, res) {
     res.render('contact.html');
 });
 
+// set the menu page route
+app.get('/menu', function(req, res) {
+
+    // ejs render automatically looks in the views folder
+    res.render('menu.html');
+});
+
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });
