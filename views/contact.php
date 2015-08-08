@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
 				</a>
 			</h1>
 			<div class="social-ico">
-				<a href="contact.html"><i class="fa fa-map-marker"></i></a>
+				<a href="/contact"><i class="fa fa-map-marker"></i></a>
 				<a href="https://www.facebook.com/thetailgatevb" target="_blank"><i class="fa fa-facebook"></i></a>
 				<!-- <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a> --> 
 			</div>
@@ -87,7 +87,7 @@ if(isset($_POST['submit'])){
 							<a href="blog.html">News</a>
 						</li>
 						<li class="current-menu-item">
-							<a href="contact.html">Contact</a>
+							<a href="/contact">Contact</a>
 						</li>	
 					</ul>
 				</div>
@@ -316,7 +316,7 @@ if(isset($_POST['submit'])){
 							<a href="blog.html">News</a>
 						</li>
 						<li class="menu-item">
-							<a href="contact.html">Contact</a>
+							<a href="/contact">Contact</a>
 						</li>
 					</ul>
 				</div>
