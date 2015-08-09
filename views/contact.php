@@ -125,8 +125,8 @@ if(isset($_POST['submit'])){
 							<div>
 								<strong>Address</strong>: 344 Constitution Drive <br>
 								Virginia Beach, VA 23462<br><br>
-								<strong>Phone</strong>: 630-754-4444<br>
-								<strong>Fax</strong>: 630-754-4444
+								<strong>Phone</strong>: 757-961-3468<br>
+								<strong>E-mail</strong>: <a href="mailto:thetailgatevb@gmail.com">thetailgatevb@gmail.com</a>
 							</div>						
 							<div class="social-ico">
 								<a href="https://www.facebook.com/thetailgatevb" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -212,7 +212,7 @@ if(isset($_POST['submit'])){
 						<strong>Growler Brewery</strong><br />
 						1422 1st St. Santa Rosa, CA 94559<br /><br />
 						<strong>Call for 
-						Reservations</strong>: (707) 255-0211<br />
+						Reservations</strong>: 757-961-3468<br />
 						<strong>E-mail</strong>: thetailgatevb@gmail.com
 					</div>						
 					<div class="social-ico">
