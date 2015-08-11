@@ -15,7 +15,7 @@ app.use(express.static(__dirname + '/public'));
 //always redirect to custom domain
 app.get('/', function(request, response, next) {
 	console.log("head:",request.headers.host);
-if(request.headers.host =="herokuapp.com") {
+if(request.headers.host =="tailgatevb.herokuapp.com") {
     response.writeHead(301, {'Location':'http://www.thetailgatevb.com'+ request.url, 'Expires': (new Date).toGMTString()});
     response.end();
 }
