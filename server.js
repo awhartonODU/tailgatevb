@@ -12,6 +12,16 @@ app.engine('html', require('ejs').renderFile);
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
+//always redirect to custom domain
+app.get('/', function(request, response, next) {
+if(request.headers.host =="herokuapp.com") {
+    response.writeHead(301, {'Location':'http://www.thetailgatevb.com'+ request.url, 'Expires': (new Date).toGMTString()});
+    response.end();
+}
+else{
+    next();
+}})
+
 // set the home page route
 app.get('/', function(req, res) {
 
