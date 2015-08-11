@@ -141,41 +141,41 @@ if(isset($_POST['submit'])){
 					</div>
 					
 					<div id="our-hours-widget-3" class="sidebar-item widget hours">
-						<h5 class="widget-title">Opening Hours</h5>			
+						<h5 class="widget-title">Hours</h5>			
 						<ul class="open-hours">
 							<li>
 								<div class="date-day grid2column-progression">Monday</div>
-								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 								<div class="clearfix"></div>
 							</li>
 							<li>
 								<div class="date-day grid2column-progression">Tuesday</div>
-								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 								<div class="clearfix"></div>
 							</li>
 							<li>
 								<div class="date-day grid2column-progression">Wednesday</div>
-								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 								<div class="clearfix"></div>
 							</li>
 							<li>
 								<div class="date-day grid2column-progression">Thursday</div>
-								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 								<div class="clearfix"></div>
 							</li>
 							<li>
 								<div class="date-day grid2column-progression">Friday</div>
-								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 								<div class="clearfix"></div>
 							</li>
 							<li>
 								<div class="date-day grid2column-progression">Saturday</div>
-								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 								<div class="clearfix"></div>
 							</li>
 							<li>
 								<div class="date-day grid2column-progression">Sunday</div>
-								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+								<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 								<div class="clearfix"></div>
 							</li>
 						</ul>
@@ -229,37 +229,37 @@ if(isset($_POST['submit'])){
 				<ul class="open-hours">
 					<li>
 						<div class="date-day grid2column-progression">Monday</div>
-						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 						<div class="clearfix"></div>
 					</li>
 					<li>
 						<div class="date-day grid2column-progression">Tuesday</div>
-						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 						<div class="clearfix"></div>
 					</li>
 					<li>
 						<div class="date-day grid2column-progression">Wednesday</div>
-						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 						<div class="clearfix"></div>
 					</li>
 					<li>
 						<div class="date-day grid2column-progression">Thursday</div>
-						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 						<div class="clearfix"></div>
 					</li>
 					<li>
 						<div class="date-day grid2column-progression">Friday</div>
-						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 						<div class="clearfix"></div>
 					</li>
 					<li>
 						<div class="date-day grid2column-progression">Saturday</div>
-						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 						<div class="clearfix"></div>
 					</li>
 					<li>
 						<div class="date-day grid2column-progression">Sunday</div>
-						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - 2:00am</div>
+						<div class="hours-date grid2column-progression lastcolumn-progression">11:00am - ?</div>
 						<div class="clearfix"></div>
 					</li>
 				</ul>	
