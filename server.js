@@ -33,13 +33,6 @@ app.get('/menu', function(req, res) {
     res.render('menu.html');
 });
 
-// set the menu page route
-app.post('/contact.php', function(req, res) {
-
-    // ejs render automatically looks in the views folder
-    res.render('contact.php');
-});
-
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });
