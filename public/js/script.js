@@ -1,4 +1,4 @@
-/*  Table of Contents 
+/*  Table of Contents
 01. MENU ACTIVATION
 02. GALLERY JAVASCRIPT
 03. FITVIDES RESPONSIVE VIDEOS
@@ -15,18 +15,18 @@
 */
 jQuery(document).ready(function($) {
 	 'use strict';
-	jQuery("ul.sf-menu").supersubs({ 
-	        minWidth:    5,   // minimum width of sub-menus in em units 
-	        maxWidth:    25,   // maximum width of sub-menus in em units 
-	        extraWidth:  1     // extra width can ensure lines don't sometimes turn over 
-	                           // due to slight rounding differences and font-family 
-	    }).superfish({ 
+	jQuery("ul.sf-menu").supersubs({
+	        minWidth:    5,   // minimum width of sub-menus in em units
+	        maxWidth:    25,   // maximum width of sub-menus in em units
+	        extraWidth:  1     // extra width can ensure lines don't sometimes turn over
+	                           // due to slight rounding differences and font-family
+	    }).superfish({
 			animationOut:  {opacity:'show'},
 			speed:         200,           // speed of the opening animation. Equivalent to second parameter of jQuery’s .animate() method
 			speedOut:      'fast',
-			autoArrows:    true,               // if true, arrow mark-up generated automatically = cleaner source code at expense of initialisation performance 
-			dropShadows:   false,               // completely disable drop shadows by setting this to false 
-			delay:     400               // 1.2 second delay on mouseout 
+			autoArrows:    true,               // if true, arrow mark-up generated automatically = cleaner source code at expense of initialisation performance
+			dropShadows:   false,               // completely disable drop shadows by setting this to false
+			delay:     400               // 1.2 second delay on mouseout
 		});
 });
 
@@ -37,13 +37,13 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
 	 'use strict';
     $('.gallery-progression').flexslider({
-		animation: "fade",      
-		slideDirection: "horizontal", 
-		slideshow: false,         
-		slideshowSpeed: 7000,  
-		animationDuration: 200,        
-		directionNav: true,             
-		controlNav: true               
+		animation: "fade",
+		slideDirection: "horizontal",
+		slideshow: false,
+		slideshowSpeed: 7000,
+		animationDuration: 200,
+		directionNav: true,
+		controlNav: true
     });
 });
 
@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
 /*
 =============================================== 03. FITVIDES RESPONSIVE VIDEOS  ===============================================
 */
-jQuery(document).ready(function($) {  
+jQuery(document).ready(function($) {
 	 'use strict';
 $("body").fitVids();
 });
@@ -63,7 +63,7 @@ $("body").fitVids();
 */
 jQuery(document).ready(function($) {
 	 'use strict';
-    $('#fixed-header-pro').scrollToFixed({ 
+    $('#fixed-header-pro').scrollToFixed({
 		spacerClass: 'pro-header-spacing',
 		zIndex:'9999', dontSetWidth:'false'});
 });
@@ -118,34 +118,32 @@ jQuery(document).ready(function($) {
 			'use strict';
 			$("#CommentForm").validate();
 		});
-		
+
 
 /*
 =============================================== 08. Flickr Widget  ===============================================
 */
-	//Flickr Widget in Sidebar			
-	jQuery(document).ready(function($) {	 			   
-		// Our very special jQuery JSON fucntion call to Flickr, gets details of the most recent images. The ID here is: 42104373@N07			   
-		$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=42104373@N07&lang=en-us&format=json&jsoncallback=?", displayImages);  //YOUR IDGETTR GOES HERE
-		function displayImages(data){																															   
-			// Randomly choose where to start. A random number between 0 and the number of photos we grabbed (20) minus  7 (we are displaying 7 photos).
-			var iStart = Math.floor(Math.random()*(0));	
-			
+	//Flickr Widget in Sidebar
+	jQuery(document).ready(function($) {
+		// Our very special jQuery JSON fucntion call to Flickr, gets details of the most recent images. The ID here is: 42104373@N07
+		$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=134569683@N04&lang=en-us&format=json&jsoncallback=?", displayImages);  //YOUR IDGETTR GOES HERE
+		function displayImages(data){
+			//show the last six pics added to the photostream
+			var numPics = data.items.length;
 			// Reset our counter to 0
-			var iCount = 1;								
-			
+			var iCount = 1;
+
 			// Start putting together the HTML string
-			var htmlString = "<ul>";					
-			
+			var htmlString = "<ul>";
+
 			// Now start cycling through our array of Flickr photo details
 			$.each(data.items, function(i,item){
-										
-				// Let's only display 6 photos (a 2x3 grid), starting from a the first point in the feed				
-				if (iCount > iStart && iCount < (iStart + 7)) {
-					
+
+				// Let's only display 6 photos (a 2x3 grid), starting from a the first point in the feed
+				if (iCount > numPics - 7 && iCount < numPics) {
 					// I only want the ickle square thumbnails
-					var sourceSquare = (item.media.m).replace("_m.jpg", "_s.jpg");		
-					
+					var sourceSquare = (item.media.m).replace("_m.jpg", "_s.jpg");
+
 					// Here's where we piece together the HTML
 					htmlString += '<li><a href="' + item.link + '" target="_blank">';
 					htmlString += '<img src="' + sourceSquare + '" alt="' + item.title + '" title="' + item.title + '"/>';
@@ -153,35 +151,35 @@ jQuery(document).ready(function($) {
 				}
 				// Increase our counter by 1
 				iCount++;
-			});		
-			
-		// Pop our HTML in the #images DIV	
+			});
+
+		// Pop our HTML in the #images DIV
 		$('.flickr-widget-2').html(htmlString + "</ul>");
 		$('.flickr-widget-3').html(htmlString + "</ul>");
-		
+
 		// Close down the JSON function call
 		}
-		
-	// The end of our jQuery function	
+
+	// The end of our jQuery function
 	});
-	
-	
-	
-	
-	
+
+
+
+
+
 /*
 =============================================== 09. Light Shortcodes  ===============================================
 */
-	
+
 	jQuery(document).ready(function($){
-	
+
 	// Accordion
 	$(".ls-sc-accordion").accordion({heightStyle: "content"});
-	
+
 	// Toggle
 	$(".ls-sc-toggle-trigger").click(function(){$(this).toggleClass("active").next().slideToggle("fast");return false; });
-	
+
 	// Tabs
 	$( ".ls-sc-tabs" ).tabs();
-	
+
 });

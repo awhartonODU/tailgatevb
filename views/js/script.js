@@ -128,6 +128,7 @@ jQuery(document).ready(function($) {
 		// Our very special jQuery JSON fucntion call to Flickr, gets details of the most recent images. The ID here is: 134569683@N04
 		$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=134569683@N04&lang=en-us&format=json&jsoncallback=?", displayImages);  //YOUR IDGETTR GOES HERE
 		function displayImages(data){
+			console.log('getting flickr shit');
 			// Randomly choose where to start. A random number between 0 and the number of photos we grabbed (20) minus  7 (we are displaying 7 photos).
 			var iStart = Math.floor(Math.random()*(0));
 
