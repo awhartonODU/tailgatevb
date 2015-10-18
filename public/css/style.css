@@ -17,7 +17,7 @@ Text Domain: progression
 /*  Table of Contents
 01. HTML5 ✰ BOILERPLATE RESET FILE
 02. COLORS AND FONTS
-	A. LOGO WIDTH 
+	A. LOGO WIDTH
 	B. BACKGROUND COLORS
 	C. FONT COLORS
 	D. FONT FAMILIES
@@ -32,7 +32,7 @@ Text Domain: progression
 09. DEFAULT GRID
 10. BUTTON STYLES
 11. CONTACT FORM STYLES
-12. SLIDERS 
+12. SLIDERS
 13. NAVIGATION
 14. WOOCOMMERCE STYLES
 15. BEER BEERS STYLES
@@ -110,15 +110,15 @@ td { vertical-align: top; }
 =============================================== 02. COLORS AND FONTS ===============================================
 */
 /* -------------------- A. LOGO WIDTH -------------------- */
-	
+
 	body #logo, body #logo img {max-width:100%;}
 	body #logo, body #logo img {width:320px;}
-	
+
 
 
 /* -------------------- B. BACKGROUND COLORS --------------------*/
-	
-	header { background-color:#CC1634; border-bottom:1px solid rgba(255, 255, 255, 0.08); } 
+
+	header { background-color:#CC1634; border-bottom:1px solid rgba(255, 255, 255, 0.08); }
 	#page-title { background-color:#1d1e1f; }
 	#main, #homepage-content-container { background-color:#eeeeee; }
 	.portfolio-posts-home {background-color: #eeeeee;}
@@ -155,7 +155,7 @@ td { vertical-align: top; }
 	.sf-menu a:hover, .sf-menu a:hover, .sf-menu li a:hover, .sf-menu a:hover, .sf-menu a:visited:hover, .sf-menu li.sfHover a, .sf-menu li.sfHover a:visited, body.single-post .sf-menu li.current_page_parent a, .sf-menu li.current-menu-item a {color:#ffffff; border-color:#ffffff;}
 	.sf-menu li.sfHover li a, .sf-menu li.sfHover li a:visited, .sf-menu li.sfHover li li a, .sf-menu li.sfHover li li a:visited, .sf-menu li.sfHover li li li a, .sf-menu li.sfHover li li li a:visited, .sf-menu li.sfHover li li li li a, .sf-menu li.sfHover li li li li a:visited { color:#f1d1cb; }
 	.sf-menu li li:hover, .sf-menu li li.sfHover, .sf-menu li li a:focus, .sf-menu li li a:hover, .sf-menu li li a:active, .sf-menu li li.sfHover a, .sf-menu li.sfHover li a:visited:hover, .sf-menu li li:hover a:visited, .sf-menu li li li:hover, .sf-menu li li li.sfHover, .sf-menu li li li a:focus, .sf-menu li li li a:hover, .sf-menu li li li a:active, .sf-menu li li li.sfHover a, .sf-menu li li.sfHover li a:visited:hover, .sf-menu li li li:hover a:visited,	.sf-menu li li li li:hover, .sf-menu li li li li.sfHover, .sf-menu li li li li a:focus, .sf-menu li li li li a:hover, .sf-menu li li li li a:active, .sf-menu li li li li.sfHover a, .sf-menu li li li.sfHover li a:visited:hover, .sf-menu li li li li:hover a:visited, .sf-menu li li li li li:hover, .sf-menu li li li li li.sfHover, .sf-menu li li li li li a:focus, .sf-menu li li li li li a:hover, .sf-menu li li li li li a:active, .sf-menu li li li li li.sfHover a, .sf-menu li li li li.sfHover li a:visited:hover, .sf-menu li li li li li:hover a:visited  {  color:#ffffff; }
-	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#101010; } 
+	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#101010; }
 	.page-numbers span.current, .page-numbers a:hover, ul#menu-sub-nav li a:hover, ul#menu-sub-nav li.current-cat a, body a.ls-sc-button.secondary span, body a.ls-sc-button.default span , body #main .width-container #respond input#submit, body #main a.button, body #main button.single_add_to_cart_button, body #main input.button, body.woocommerce-cart #main td.actions  input.button.checkout-button, body #main button.button, body #single-product-pro a.button, body #single-product-pro button.single_add_to_cart_button, body #single-product-pro input.button, body.woocommerce-cart #single-product-pro input.button.checkout-button, body #single-product-pro button.button,body a.progression-button, body input.wpcf7-submit, body input#submit, body a.ls-sc-button.default,
 	#pro-home-slider .Button-Growler a { color:#ffffff; }
 	#pro-home-slider .Button-Growler a:hover, body a.ls-sc-button.secondary span:hover, body a.ls-sc-button.default span:hover, body #main .width-container #respond input#submit:hover, body #main a.button:hover, body #main button.single_add_to_cart_button:hover, body #main input.button:hover, body.woocommerce-cart #main td.actions input.button.checkout-button:hover, body #main button.button:hover, body #single-product-pro a.button:hover, body #single-product-pro button.single_add_to_cart_button:hover, body #single-product-pro input.button:hover, body.woocommerce-cart #single-product-pro input.button.checkout-button:hover, body #single-product-pro button.button:hover, body a.progression-button:hover, body input.wpcf7-submit:hover, body input#submit:hover, body a.ls-sc-button.default:hover { color:#ffffff; }
@@ -220,7 +220,7 @@ p.wp-caption-text {display:block; padding:2px 0px 0px 2px; margin-bottom:10px; f
 form.woocommerce-ordering, body #main a h3, table.variations td.value,
 a, .social-ico a i, body input.wpcf7-submit, body input#submit, button, input.button,
 a.ls-sc-button.secondary .ls-sc-button-inner, #bread-crumb i,
-#pro-home-slider .tparrows.custom  { 
+#pro-home-slider .tparrows.custom  {
 	-webkit-transition-duration: 125ms;
 	-webkit-transition-property: color, background-color, opacity, border;
 	-webkit-transition-timing-function: ease-in-out;
@@ -253,13 +253,13 @@ header .width-container {position:relative;}
 .social-ico {margin-top:51px; }
 body.page #respond {display:none;}
 
-header { 
+header {
 	-moz-box-shadow:  0px 0px 6px rgba(0,0,0,0.4);
 	-webkit-box-shadow:  0px 0px 6px rgba(0,0,0,0.4);
 	box-shadow: 0px 0px 6px rgba(0,0,0,0.4);
 }
 
-body.woocommerce header { 
+body.woocommerce header {
 	-moz-box-shadow:  0px 0px 6px rgba(0,0,0,0.4);
 	-webkit-box-shadow:  0px 0px 6px rgba(0,0,0,0.4);
 	box-shadow: 0px 0px 6px rgba(0,0,0,0.4);
@@ -313,8 +313,8 @@ header .social-ico {
 body.home #main {padding:0px;}
 #content-container-sidebar {float:left; width:70%; }
 #sidebar {
-	float:right; 
-	width:28%; 
+	float:right;
+	width:28%;
 }
 
 body.page-template-page-full-width-php #content-container {width:100%;}
@@ -336,7 +336,7 @@ body.page-template-page-full-width-php #content-container {width:100%;}
 	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 	margin-bottom:30px;
-} 
+}
 
 
 /*
@@ -413,7 +413,7 @@ font-size: 28px;
 
 .responsive-image{
 	max-width: 100%; 
-	display:block; 
+	display:block;
 	height: auto;
 }
 
@@ -469,7 +469,7 @@ footer a:hover {
 }
 
 #copyrigh-text {
-	float:left;	
+	float:left;
 	font-size:14px;
 }
 
@@ -622,10 +622,10 @@ body #main a.more-link {
 
 /* Post Navigation Next Previous */
 #nav-below h1 {display:none;}
-#nav-below { 
+#nav-below {
 	width:100%; overflow:hidden;
-	font-size:15px; 
-	margin:40px 0px 15px 0px; 
+	font-size:15px;
+	margin:40px 0px 15px 0px;
 	border-top:2px solid #eeeeee;
 	border-bottom:2px solid #eeeeee;
 }
@@ -668,11 +668,11 @@ ul.page-numbers {
 ul.page-numbers li {
 	margin:0px; padding:0px;
 	display:inline-block;
-	
+
 }
 
 .page-numbers span, .page-numbers a {
-	text-decoration:none; line-height:1; cursor: pointer; display:inline-block; 
+	text-decoration:none; line-height:1; cursor: pointer; display:inline-block;
 	font-weight:bold;
 	margin-right:4px;
 	padding:14px 18px;
@@ -709,7 +709,7 @@ h3 a#cancel-comment-reply-link {font-size:13px;}
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background: #fafafa;
-	border:1px solid #f1f1f1; 
+	border:1px solid #f1f1f1;
 	margin: 0 0 1.625em 0 !important;
 	padding: 0.2em 1.4em 0.25em 1.4em;
 	list-style:none ;
@@ -827,10 +827,10 @@ p.form-allowed-tags code {display:block;}
 
 /*Image Gallery */
 #image-navigation {
-	width:100%; 
-	overflow:hidden; 
-	margin-bottom:10px; 
-	margin-top:10px; 
+	width:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+	margin-top:10px;
 	font-size:16px;
 	font-weight:bold;
 }
@@ -841,7 +841,7 @@ body.single-attachment .edit-link {padding-left:15px;}
 
 /* Tags */
 #tags-pro a {
-	text-decoration:none; line-height:1; cursor: pointer; display:inline-block; 
+	text-decoration:none; line-height:1; cursor: pointer; display:inline-block;
 	border:none;
 	width:auto;
 	margin:0px 5px 5px 0px;
@@ -892,10 +892,10 @@ body #main .gallery-caption {
 
 /*Image Gallery */
 #image-navigation {
-	width:100%; 
-	overflow:hidden; 
-	margin-bottom:10px; 
-	margin-top:10px; 
+	width:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+	margin-top:10px;
 	font-size:16px;
 	font-weight:bold;
 }
@@ -942,7 +942,7 @@ body.single-attachment .edit-link {padding-left:15px;}
 
 /* Tag Cloud */
 #sidebar .tagcloud a {
-	text-decoration:none; line-height:1; cursor: pointer; display:inline-block; 
+	text-decoration:none; line-height:1; cursor: pointer; display:inline-block;
 	width:auto;
 	border:none;
 	margin:0px 2px 10px 0px;
@@ -1065,7 +1065,7 @@ body.single-attachment .edit-link {padding-left:15px;}
 	-webkit-transition-duration: 400ms; -webkit-transition-property: width, background; -webkit-transition-timing-function: ease;
 	-moz-transition-duration: 400ms; -moz-transition-property: width, background; -moz-transition-timing-function: ease;
 	-o-transition-duration: 400ms; -o-transition-property: width, background; -o-transition-timing-function: ease;
-	background-color:#ffffff; 
+	background-color:#ffffff;
 	border:2px solid #e5e5e5;
 	padding-bottom:12px;
 	padding-top:12px;
@@ -1313,7 +1313,7 @@ body .ls-sc-tabs ul.ui-tabs-nav .ui-state-active a {
   height: 40px;
   top:-3px;
   padding-top: 3px;
- 
+
 }
 
 
@@ -1434,10 +1434,10 @@ body #main .width-container .columns-4 li.product {margin-left:1%;margin-right:1
 }
 
 
-body #main .width-container #respond input#submit, 
+body #main .width-container #respond input#submit,
 body #main a.button, body #main button.single_add_to_cart_button, body #main input.button, body.woocommerce-cart #main td.actions  input.button.checkout-button, body #main button.button, body #single-product-pro a.button, body #single-product-pro button.single_add_to_cart_button, body #single-product-pro input.button, body.woocommerce-cart #single-product-pro input.button.checkout-button, body #single-product-pro button.button,
 body a.progression-button, body input.wpcf7-submit, body input#submit, body a.ls-sc-button.default {
-	text-decoration:none; line-height:1; cursor: pointer; display:inline-block; 
+	text-decoration:none; line-height:1; cursor: pointer; display:inline-block;
 	width:auto;
 	margin:0px 6px 6px 0px;
 	-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
@@ -1474,7 +1474,7 @@ textarea:focus:-moz-placeholder { color:#bbbbbb; }
 #map-progression iframe {
 	height: 425px;
 	width: 100%;
-}	
+}
 
 
 #map-progression {
@@ -1505,7 +1505,7 @@ margin: 15px;
 }
 
 .wpcf7 input.wpcf7-not-valid, .wpcf7 textarea.wpcf7-not-valid {
-	border-color:#eab7b7; 
+	border-color:#eab7b7;
 	background:#fbe8e8;
 }
 .wpcf7-not-valid-tip {display:none !important;}
@@ -1557,7 +1557,7 @@ body.woocommerce-cart #main td.actions .coupon input.button {
 	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
 	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 	cursor:pointer;
-	text-transform:none; 
+	text-transform:none;
 	padding:12px 45px 12px 12px;
 	margin-top:3px;
 	border:none;
@@ -1588,7 +1588,7 @@ body.woocommerce-cart #main td.actions .coupon input.button {
 body #pro-home-slider .tparrows.preview2, body.lt-ie9 #pro-home-slider .tparrows.preview2 {
 	background-color: rgba(0,0,0,0.4) !important;
 	background-image:url(images/slider/arrows.png)!important ;
-	background-repeat:no-repeat !important;	
+	background-repeat:no-repeat !important;
 	background-position:19px 9px !important;
 	width:70px !important;
 	min-width:70px !important;
@@ -1653,18 +1653,18 @@ body #pro-home-slider .tparrows.preview2:hover {
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
 
 /* FlexSlider Necessary Styles
-*********************************/ 
+*********************************/
 .flexslider {margin: 0; padding: 0;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img { display: block; width:100%; }
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
-.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .slides {display: block;} 
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
 * html .slides {height: 1%;}
 
 /* No JavaScript Fallback */
@@ -1790,9 +1790,9 @@ nav {float:right;}
 	content:"";
 	position:absolute;
 	display:block;
-	width: 0; 
+	width: 0;
 	height: 0;
-	left:18px; 
+	left:18px;
 	top:-8px;
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
@@ -1820,7 +1820,7 @@ body #pro-header-fixed.scroll-to-fixed-fixed .sf-menu li li a,
 	font-size:13px;
 	text-transform:none;
 	padding:10px 18px 10px 24px;
-	margin:0px; 
+	margin:0px;
 	border:none;
 	-webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px;
 }
@@ -1863,7 +1863,7 @@ ul.sub-menu .sf-sub-indicator {
 	height: 0;
 	width: 0;
 	/* order of following 3 rules important for fallbacks to work */
-	
+
 }
 .sf-arrows > li > .sf-with-ul:focus:after,
 .sf-arrows > li:hover > .sf-with-ul:after,
@@ -1993,7 +1993,7 @@ body .home-content-highlight .rating-fix-pro,
 	padding:2px 0px 8px 0px;
 	text-align:center;
 }
- 
+
 body .home-content-highlight ul li.product .star-rating,
 body #main ul li.product .star-rating {
 	margin:0px;
@@ -2046,7 +2046,7 @@ body #main form.woocommerce-ordering select {
 	-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;
 	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 	cursor:pointer;
-	text-transform:none; 
+	text-transform:none;
 	background:none;
 	font-size:13px;
 	font-weight:700;
@@ -2072,7 +2072,7 @@ body #main .width-container span.onsale {
 	left:15px;
 	width:50px;
 	color:#ffffff;
-	background:#cc5b44; 
+	background:#cc5b44;
 	text-align:center;
 	padding:22px 0px 0px 0px;
 	font-size:18px;
@@ -2088,9 +2088,9 @@ span.onsale:before {
 	content:"";
 	position:absolute;
 	display:block;
-	width: 0; 
+	width: 0;
 	height: 0;
-	left:0px; 
+	left:0px;
 	bottom:-8px;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
@@ -2236,9 +2236,9 @@ body.woocommerce #reviews #comments ol.commentlist li .comment-text {
 
 body.woocommerce #reviews #comments ol.commentlist p.meta {margin-bottom:10px;}
 body.woocommerce #reviews #comments ol.commentlist p.meta strong {
-	font-weight: 300; 
-	display: inline-block; 
-	font-size:22px; 
+	font-weight: 300;
+	display: inline-block;
+	font-size:22px;
 	color:#000000;
 }
 body.woocommerce #reviews #comments ol.commentlist p.meta time {
@@ -2254,7 +2254,7 @@ body #main .width-container .woocommerce-tabs  {
 body #main .width-container .woocommerce-tabs ul.tabs { overflow:visible; padding-left:0px; }
 body #main .width-container .woocommerce-tabs .tabs li {position:relative; top:1px;}
 body #main .width-container .woocommerce-tabs .tabs li a { font-size:13px; font-weight:400;  color:#ffffff;  text-shadow:none;}
-body #main .width-container .woocommerce-tabs .tabs li { 
+body #main .width-container .woocommerce-tabs .tabs li {
 	padding:0px;
 	margin-right:2px;
 	background:none;
@@ -2266,7 +2266,7 @@ body #main .width-container .woocommerce-tabs .tabs li {
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
-	
+
 }
 
 body #main .width-container .woocommerce-tabs .tabs li a {
@@ -2322,15 +2322,15 @@ body #main .woocommerce-message a.button {
 
 body #main .woocommerce-message, body #main .woocommerce-info, body #main ul.woocommerce-error {
 	background:#ffffff;
-	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
-	-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 body #main ul.products img, body #main .images img, body #main #sidebar img {
-	-webkit-box-shadow: none; 
-	-moz-box-shadow: none; 
-	box-shadow: none; 
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 
 
@@ -2407,7 +2407,7 @@ ul#menu-sub-nav li {margin:0px; padding:0px; display:inline; }
 
 
 ul#menu-sub-nav li a  {
-	text-decoration:none; line-height:1; cursor: pointer; display:inline-block; 
+	text-decoration:none; line-height:1; cursor: pointer; display:inline-block;
 	margin-right:6px;
 	padding:14px 25px;
 	font-size:14px;
@@ -2599,7 +2599,7 @@ body .single-event .entry-content {
 .social-ico {
 	font-size:16px;
 	margin-left:6px;
-} 
+}
 
 .social-ico a i {
 	line-height:1;
