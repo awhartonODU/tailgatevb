@@ -51,6 +51,13 @@ app.get('/events', function(req, res) {
 	res.render('events.html');
 });
 
+//set the thanksgiving page route
+app.get('/thanksgiving', function(req, res) {
+
+	// ejs render automatically looks in the views folder
+	res.render('thanksgiving.html');
+});
+
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });
