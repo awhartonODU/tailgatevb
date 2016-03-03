@@ -132,13 +132,13 @@ jQuery(document).ready(function($) {
 			var numPics = data.items.length;
 			// Reset our counter to 0
 			var iCount = 1;
+			console.log('data:', data);
 
 			// Start putting together the HTML string
 			var htmlString = "<ul>";
 
 			// Now start cycling through our array of Flickr photo details
 			$.each(data.items, function(i,item){
-
 				// Let's only display 6 photos (a 2x3 grid), starting from a the first point in the feed
 				if (iCount > numPics - 7 && iCount < numPics) {
 					// I only want the ickle square thumbnails
