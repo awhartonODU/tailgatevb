@@ -12,7 +12,7 @@ app.engine('html', require('ejs').renderFile);
 
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
-app.use(favicon(__dirname + '/public/images/favicon.ico'));
+app.use('/favicon.ico', express.static('images/favicon.ico'));
 
 //always redirect to www domain so we can track
 app.get('/', function(request, response, next) {
