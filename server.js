@@ -1,5 +1,6 @@
-var express = require('express');
-var app = express();
+var express = require('express'),
+	favicon = require('serve-favicon'),
+ 	app = express();
 
 // set the port of our application
 // process.env.PORT lets the port be set by Heroku
@@ -11,10 +12,10 @@ app.engine('html', require('ejs').renderFile);
 
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 //always redirect to www domain so we can track
 app.get('/', function(request, response, next) {
-	console.log("head:",request.headers.host);
 if(request.headers.host =="tailgatevb.com") {
     response.writeHead(301, {'Location':'http://www.thetailgatevb.com'+ request.url, 'Expires': (new Date).toGMTString()});
     response.end();
