@@ -26,7 +26,7 @@
 =============================================== 02. BASE STYLES (1140px) ===============================================
 */
 /* Note: Design for a width of 1040px */
-html {-webkit-text-size-adjust: none;}	/* Removes webkit font resizing */ 
+html {-webkit-text-size-adjust: none;}	/* Removes webkit font resizing */
 body {max-width:100%; width:100%;}
 img {max-width:100%; height: auto; }
 .width-container, .flex-caption .slider-container {-moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; }
@@ -37,7 +37,7 @@ img {max-width:100%; height: auto; }
 */
 /* Note: Design for a width of 960px */
 @media only screen and (min-width: 959px) and (max-width: 1190px) {
-	
+
 .flex-caption .slider-container, .width-container, .home-widget .textwidget {width:92%;} /* Default Width */
 
 
@@ -48,7 +48,7 @@ h1 {font-size:38px; }
 h2 {font-size:28px; }
 .footer-highlight h2  {font-size:30px;}
 h3 {font-size:26px; }
-body .home-content-highlight li.product h3.product-title-index-pro, body #main h3.product-title-index-pro 
+body .home-content-highlight li.product h3.product-title-index-pro, body #main h3.product-title-index-pro
 {font-size:23px;}
 h4 {font-size:23px; }
 h5 {font-size:20px; }
@@ -111,7 +111,7 @@ h1 {font-size:36px; }
 h2 {font-size:26px; }
 .footer-highlight h2  {font-size:28px;}
 h3 {font-size:24px; }
-body .home-content-highlight li.product h3.product-title-index-pro, body #main h3.product-title-index-pro 
+body .home-content-highlight li.product h3.product-title-index-pro, body #main h3.product-title-index-pro
 {font-size:21px;}
 h4 {font-size:21px; }
 h5 {font-size:18px; }
@@ -128,7 +128,7 @@ h6 {font-size:16px; }
 /* Note: Design for a width of 320px */
 
 @media only screen and (max-width: 767px) {
-	
+
 body, footer {font-size:13px;}
 
 /* Default Width */
@@ -146,7 +146,7 @@ body, footer {font-size:13px;}
 	width:100%; margin-bottom:10px;
 }
 
-body #main .width-container li.product.column-2, body #main .width-container li.product.column-3, body #main .width-container li.product.column-4, .lt-ie8 body #main .width-container li.product.column-2, .lt-ie8 body #main .width-container li.product.column-3, .lt-ie8 body #main .width-container li.product.column-4 
+body #main .width-container li.product.column-2, body #main .width-container li.product.column-3, body #main .width-container li.product.column-4, .lt-ie8 body #main .width-container li.product.column-2, .lt-ie8 body #main .width-container li.product.column-3, .lt-ie8 body #main .width-container li.product.column-4
 {
 	margin-left:0px !important;
 	margin-right:0px !important;
@@ -166,7 +166,7 @@ header .social-ico {
 	margin:0 auto 10px auto;
 	text-align:center;
 }
-nav ul { display: none;  }  
+nav ul { display: none;  }
 nav select option { background:#fff; color:#888;}
 nav select { text-transform:none; display:block;  margin-left:auto; margin-right:auto; width:300px; min-width: 150px; max-width: 100%; -webkit-appearance: none; -moz-appearance: normal; appearance: normal;
 -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
@@ -247,7 +247,7 @@ h1 {font-size:34px; }
 h2 {font-size:24px; }
 .footer-highlight h2  {font-size:26px;}
 h3 {font-size:22px; }
-body .home-content-highlight li.product h3.product-title-index-pro, body #main h3.product-title-index-pro 
+body .home-content-highlight li.product h3.product-title-index-pro, body #main h3.product-title-index-pro
 {font-size:20px;}
 h4 {font-size:20px; }
 h5 {font-size:17px; }
