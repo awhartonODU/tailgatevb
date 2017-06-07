@@ -112,7 +112,7 @@ td { vertical-align: top; }
 /* -------------------- A. LOGO WIDTH -------------------- */
 
 	body #logo, body #logo img {max-width:100%;}
-	body #logo, body #logo img {width:320px;}
+	body #logo, body #logo img {width:175px;}
 
 
 
@@ -412,7 +412,7 @@ font-size: 28px;
 }
 
 .responsive-image{
-	max-width: 100%; 
+	max-width: 100%;
 	display:block;
 	height: auto;
 }
