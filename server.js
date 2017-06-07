@@ -50,11 +50,6 @@ app.get('/events', function(req, res) {
 	res.render('events.html');
 });
 
-app.get('/googlee8395b2b693a7837.html', function(req, res) {
-    
-    res.render('googlee8395b2b693a7837.html');
-})
-
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });
